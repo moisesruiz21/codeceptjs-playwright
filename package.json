@@ -1,0 +1,20 @@
+{
+  "name": "codeceptjs-playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx codeceptjs run --steps"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.14.7",
+    "codeceptjs": "^3.6.4",
+    "playwright": "^1.45.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.2",
+    "dotenv": "^16.4.5"
+  }
+}
