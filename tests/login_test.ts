@@ -13,5 +13,5 @@ Before(async() => {
 
 Scenario('User should be able to login successfully to the application', async() => {
   await loginPage.performLogin(commonData.username, commonData.password)
-  await loginPage.validateSignOutButton();
+  await loginPage.validateSuccessfulLogin();
 });
