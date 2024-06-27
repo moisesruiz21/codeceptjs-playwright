@@ -15,7 +15,7 @@ class LoginPage {
         I.click(this.buttons.submit)
     }
 
-    async validateSignOutButton(){
+    async validateSuccessfulLogin(){
         I.wait(2);
         I.dontSeeElement(this.buttons.submit)
     }
